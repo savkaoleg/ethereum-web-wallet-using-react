@@ -1,0 +1,66 @@
+.blockCard {
+  margin: 15px auto;
+  max-width: 700px;
+  position: relative;
+}
+
+.blockCardTitle {
+  z-index: 1;
+  background: white;
+}
+
+.moreInfoBtn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+// .example1 {
+//   position: static;
+//   margin-top: -100%;
+// }
+
+.example1-enter {
+  position: static;
+  margin-top: -100%;
+}
+
+.example1-enter.example1-enter-active {
+  position: static;
+  margin-top: 0%;
+  transition: margin 500ms ease-in;
+}
+
+.example1-leave {
+  position: static;
+  margin-top: 0%;
+}
+
+.example1-leave.example1-leave-active {
+  position: static;
+  margin-top: -100%;
+  transition: margin 300ms ease-in;
+}
+
+.mainNav > a {
+  margin: 0px 10px;
+}

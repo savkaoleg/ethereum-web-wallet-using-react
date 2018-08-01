@@ -1,0 +1,3 @@
+export const FETCH_DATA = 'FETCH_DATA'
+export const FETCHED_FATA = 'FETCHED_FATA'
+export const ADD_FATCHED_DATA_ERROR = 'ADD_FATCHED_DATA_ERROR'
